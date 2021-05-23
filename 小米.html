@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <title>小米官网</title>
+    <style>
+        /*最上方导航栏*/
+        .div1 {
+            width: 100%;
+            height: 5%;
+            background-color: rgb(70, 69, 69);
+            border-style: solid;
+            border-color: rgb(70, 69, 69);
+            padding: 40px;
+        }
+
+        ul {
+            background-color: rgb(70, 69, 69);
+            width: 100%;
+            height: 5%;
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            overflow: hidden;
+            position: absolute;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: darkgrey;
+            text-align: center;
+            padding: 10px 5px;
+            text-decoration: none;
+            left: 50px;
+            font-size: 10px;
+        }
+
+        li a:hover {
+            background-color: white;
+        }
+
+        /*购物车图片*/
+        div.img {
+            width: 80px;
+            position: absolute;
+            top: 50px;
+            left: 1300px;
+        }
+
+        /*小米图片*/
+        div.img1 {
+            width: 150px;
+            position: absolute;
+            top: 12px;
+            left: 60px;
+        }
+
+        /*第二行大盒子*/
+        #div2 {
+            background-color: white;
+            position: absolute;
+            top: 100px;
+            left: 0;
+            width: 100%;
+            height: 10%;
+            border-style: solid;
+            border-color: black;
+
+        }
+
+        /*第二行导航栏*/
+        .div3 {
+            position: absolute;
+            top: 12px;
+            left: 300px;
+            width: 50%;
+            height: 80%;
+            border-style: solid;
+            border-color: white;
+        }
+
+        #ul3 {
+            background-color: white;
+            width: 100%;
+            height: 100%;
+            list-style-type: none;
+            overflow: hidden;
+        }
+
+        #li3 a {
+            float: left;
+        }
+
+        #li3 a {
+
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            overflow: hidden;
+            float: left;
+            padding: 10px;
+            color: black;
+            font-size: 14px;
+        }
+
+        #li3 a.hover {
+
+            background-color: rgb(54, 52, 52);
+            color: darkorange;
+
+        }
+
+        /*搜索框*/
+        .source input[type=text] {
+            border-style: solid;
+            border-color: rgb(228, 225, 225);
+            float: left;
+            margin-right: 16px;
+            font-size: 17px;
+            position: absolute;
+            top: 12px;
+            left: 900px;
+            width: 20%;
+            height: 50%;
+        }
+
+        /*装搜索框的盒子*/
+        .div4 {
+            width: 5%;
+            height: 50%;
+            border-style: solid;
+            border-color: rgb(228, 225, 225);
+            position: absolute;
+            top: 13px;
+            left: 1196px;
+        }
+
+        /*搜索图片*/
+        div.img2 {
+            width: 50px;
+        }
+
+        /*垂直导航栏*/
+        .div5 {
+            width: 15%;
+            height: 380px;
+            position: absolute;
+            top: 100px;
+            left: 60px;
+            border-style: solid;
+            border-color: black;
+            background-color: dimgray;
+        }
+
+        #ul5 {
+            background-color: dimgray;
+            width: 50%;
+            height: auto;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: block;
+            overflow: visible;
+            position: absolute;
+            top: 0;
+            left: 20px;
+            border-style: solid;
+            border-color: dimgray;
+        }
+
+        .li5 a {
+
+            text-decoration: none;
+            padding: 10px 10px;
+            color: rgb(15, 13, 13);
+        }
+
+        .li5 a.hover {
+            background-color: darkorange;
+            color: white;
+        }
+
+        /*导航栏右边的大框*/
+        .div6 {
+            border-style: solid;
+            border-color: dimgray;
+            background-color: white;
+            width: 70%;
+            height: 380px;
+            position: absolute;
+            top: 100px;
+            left: 300px;
+        }
+
+        .div7 {
+            border-style: solid;
+            border-color: rgb(48, 37, 37);
+            background-color: rgb(48, 37, 37);
+            width: 15%;
+            height: 150px;
+            position: absolute;
+            top: 500px;
+            left: 60px;
+        }
+
+        div.img3 {
+            width: 50px;
+            border-style: hidden;
+            margin: 5px;
+            float: left;
+            color: white;
+        }
+
+        div.img3:hover {
+            color: darkorange;
+        }
+
+        div.img3 img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+            color: white;
+            font-size: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <ul>
+            <li><a class="hover" href="#小米商城 ">小米商城 |</a></li>
+            <li><a href="#MIUI">MIUI |</a></li>
+            <li><a href="#loT">loT |</a></li>
+            <li><a href="#云服务">云服务 |</a></li>
+            <li><a href="#天星数科">天星数科 |</a></li>
+            <li><a href="#有品">有品 |</a></li>
+            <li><a href="#小爱开放平台">小爱开放平台 |</a></li>
+            <li><a href="#企业团购">企业团购 |</a></li>
+            <li><a href="#资质证照">资质证照 |</a></li>
+            <li><a href="#协议规则">协议规则 |</a></li>
+            <li><a href="#下载app">下载app |</a></li>
+            <li><a href="#智能生活">智能生活 |</a></li>
+            <li><a href="#Select Location">Select Location</a></li>
+            <li><a class="active" herf="#登录">登录 |</a></li>
+            <li><a href="#注册">注册 |</a></li>
+            <li><a href="#消息通知">消息通知 |</a></li>
+        </ul>
+        <div class="responsive">
+            <div class="img">
+                <a target="_blank" href="file:///C:/Users/du'yi/Downloads/%E8%B4%AD%E7%89%A9%20%E8%BD%A6%20(1).svg"></a>
+                <img src="file:///C:/Users/du'yi/Downloads/%E8%B4%AD%E7%89%A9%20%E8%BD%A6%20(1).svg" alt="图片文本描述"
+                    width="60" height="30">
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="div2">
+        <div class="responsive">
+            <div class="img1">
+                <a target="_blank"
+                    href="file:///C:/Users/du'yi/Downloads/%E5%B0%8F%E7%B1%B3%E6%96%B0%20Logo-%E4%BB%85%E4%BE%9B%E5%AD%A6%E4%B9%A0%E7%A0%94%E7%A9%B6%E4%BD%BF%E7%94%A8.svg"></a>
+                <img src="file:///C:/Users/du'yi/Downloads/%E5%B0%8F%E7%B1%B3%E6%96%B0%20Logo-%E4%BB%85%E4%BE%9B%E5%AD%A6%E4%B9%A0%E7%A0%94%E7%A9%B6%E4%BD%BF%E7%94%A8.svg"
+                    alt="图片文本描述" width="60" height="60">
+            </div>
+            <div class="div3">
+                <ul id="ul3">
+                    <li id="li3"><a class="active" href="#">小米手机</a></li>
+                    <li id="li3"><a href="#">Redim 红米</a></li>
+                    <li id="li3"><a href="#">电视</a></li>
+                    <li id="li3"><a href="#">笔记本</a></li>
+                    <li id="li3"><a href="#">家电</a></li>
+                    <li id="li3"><a href="#">路由器</a></li>
+                    <li id="li3"><a href="#">智能硬件</a></li>
+                    <li id="li3"><a href="#">服务</a></li>
+                    <li id="li3"><a href="#">社区</a></li>
+                </ul>
+            </div>
+            <div class="source"><input type="text" placeholder="电视"></div>
+            <div class="div4">
+                <div class="responsive">
+                    <div class="img2">
+                        <a target="_blank" href="file:///C:/Users/du'yi/Downloads/%E6%90%9C%E7%B4%A2.svg"></a>
+                        <img scr="file:///C:/Users/du'yi/Downloads/%E6%90%9C%E7%B4%A2.svg" alt="搜索" width="60"
+                            height="30">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="div5">
+            <ul id="ul5">
+                <li class="li5"><a class="hover" href="#">手机 电话卡</a></li>
+                <li class="li5"><a href="#">电视 盒子</a></li>
+                <li class="li5"><a href="#">笔记本 显示器</a></li>
+                <li class="li5"><a href="#">家电 插线板</a></li>
+                <li class="li5"><a href="#">出行 穿戴</a></li>
+                <li class="li5"><a href="#">智能 路由器</a></li>
+                <li class="li5"><a href="#">电源 配件</a></li>
+                <li class="li5"><a href="#">健康 儿童</a></li>
+                <li class="li5"><a href="#">耳机 音响</a></li>
+                <li class="li5"><a href="#">生活 箱包</a></li>
+            </ul>
+        </div>
+        <div class="div6"></div>
+        <div class="div7">
+            <div class="responsive">
+                <div class="img3">
+                    <!--<a target="_blank" href="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/739bfb64385b7c4b5985069086a03b20.png?thumb=1&w=300&h=300&f=webp&q=90"></a>-->
+                    <img scr="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/739bfb64385b7c4b5985069086a03b20.png?thumb=1&w=300&h=300&f=webp&q=90"
+                        alt="小米秒杀" width="30" height="30">
+                </div>
+            </div>
+            <div class="desc">小米秒杀</div> 
+            <!-- <div class="responsive">
+        <div class="img3">
+            <a target="_blank" href="file:///C:/Users/du'yi/Downloads/%E4%B9%A6%E6%9C%AC.svg"></a>
+            <img scr="file:///C:/Users/du'yi/Downloads/%E4%B9%A6%E6%9C%AC.svg" alt="企业团购" width="30" height="30">
+        </div>
+    </div>
+    <div class="desc">企业团购</div>
+    <div class="responsive">
+        <div class="img3">
+            <a target="_blank" href="file:///C:/Users/du'yi/Downloads/F%E7%A0%81.svg"></a>
+            <img scr="file:///C:/Users/du'yi/Downloads/F%E7%A0%81.svg" alt="F码通道" width="30" height="30">
+        </div>
+    </div>
+    <div class="desc">F码通道</div>
+    <div class="responsive">
+        <div class="img3">
+            <a target="_blank" href="file:///C:/Users/du'yi/Downloads/sp-%E9%80%9A%E4%BF%A1%E8%B5%84%E6%BA%90-%E7%94%B5%E8%AF%9D%E5%8D%A1.svg"></a>
+            <img scr="file:///C:/Users/du'yi/Downloads/sp-%E9%80%9A%E4%BF%A1%E8%B5%84%E6%BA%90-%E7%94%B5%E8%AF%9D%E5%8D%A1.svg" alt="米粉卡" width="30" height="30">
+        </div>
+    </div>
+    <div class="desc">米粉卡</div>
+    <div class="responsive">
+        <div class="img3">
+            <a target="_blank" href="file:///C:/Users/du'yi/Downloads/%E9%92%B1.svg"></a>
+            <img scr="file:///C:/Users/du'yi/Downloads/%E9%92%B1.svg" alt="以旧换新" width="30" height="30">
+        </div>
+    </div>
+    <div class="desc">以旧换新</div>
+    <div class="responsive">
+        <div class="img3">
+            <a target="_blank" href="file:///C:/Users/du'yi/Downloads/%E9%92%B1%20(2).svg"></a>
+            <img scr="file:///C:/Users/du'yi/Downloads/%E9%92%B1%20(2).svg" alt="话费充值" width="30" height="30">
+        </div>
+    </div>
+    <div class="desc">话费充值</div> -->
+        </div>
+</body>
+
+</html>
